@@ -8,7 +8,6 @@ public class ATM {
         int correctPIN = 1234;
         int attempts = 3;
 
-        // 🔐 PIN authentication
         while (attempts > 0) {
             System.out.print("Enter PIN: ");
             int enteredPIN = sc.nextInt();
