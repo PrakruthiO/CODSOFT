@@ -20,7 +20,7 @@ public class NumberGame {
 
                 if (guess == number) {
                     System.out.println("Correct!");
-                    totalScore++;  // ✅ count win
+                    totalScore++;  
                     System.out.println("You won this round!");
                     guessed = true;
                     break;
