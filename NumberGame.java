@@ -13,7 +13,7 @@ public class NumberGame {
             int attempts = 5;
             boolean guessed = false;
 
-            System.out.println("Guess number (1-100)");
+            System.out.println("Guess the number between 1 to 100");
 
             while (attempts > 0) {
                 int guess = sc.nextInt();
